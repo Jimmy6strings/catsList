@@ -1,0 +1,31 @@
+{
+  "name": "catslist",
+  "version": "1.0.0",
+  "description": "app that lets you find cats or create a new cat profile",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jimmy6strings/catsList.git"
+  },
+  "keywords": [
+    "cats"
+  ],
+  "author": "james mitchell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jimmy6strings/catsList/issues"
+  },
+  "homepage": "https://github.com/Jimmy6strings/catsList#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.4",
+    "morgan": "^1.8.1",
+    "q": "^1.5.0"
+  }
+}
