@@ -1,10 +1,9 @@
-var catsController = require('../cats/catsController.js')
+var usersController = require('../users/usersController.js')
 
 
 module.exports = function(app, express) {
-  //get all the cats
-  app.get('/api/cats/getcats', catsController.getCats);
-  //create a new cat
-  app.post('/api/cats/postcats', catsController.postCats);
-
+  //get all the users
+  app.get('/api/users/getusers', usersController.getUsers);
+  //create a new user
+  app.post('/api/users/postusers', usersController.postUsers);
 }
